@@ -15,7 +15,7 @@ export class Piece {
   width: number;
 
   /**
-   * La hauteur de la pièce.
+   * La largeur de la pièce.
    */
   height: number;
 
@@ -27,7 +27,7 @@ export class Piece {
   /**
    * Crée une instance de Piece.
    * @param width - La largeur de la pièce.
-   * @param height - La hauteur de la pièce.
+   * @param height - La largeur de la pièce.
    * @param aspirateur - L'objet Aspirateur présent dans la pièce.
    */
   constructor(width: number, height: number, aspirateur: Aspirateur) {
@@ -45,8 +45,8 @@ export class Piece {
   }
 
   /**
-   * Obtient la hauteur de la pièce.
-   * @returns La hauteur de la pièce.
+   * Obtient la largeur de la pièce.
+   * @returns La largeur de la pièce.
    */
   getHeight(): number {
     return this.height;
@@ -69,8 +69,8 @@ export class Piece {
   }
 
   /**
-   * Définit la hauteur de la pièce.
-   * @param height - La nouvelle hauteur de la pièce.
+   * Définit la largeur de la pièce.
+   * @param height - La nouvelle largeur de la pièce.
    */
   setHeight(height: number): void {
     this.height = height;

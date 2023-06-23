@@ -19,9 +19,9 @@ function main() {
    */
   rl.question("largeur : ", (width) => {
     /**
-     * Demande à l'utilisateur d'entrer la hauteur de la pièce.
+     * Demande à l'utilisateur d'entrer la largeur de la pièce.
      */
-    rl.question("hauteur : ", (height) => {
+    rl.question("largeur : ", (height) => {
       /**
        * Demande à l'utilisateur d'entrer la position x de l'aspirateur dans la pièce.
        */
