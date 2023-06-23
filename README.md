@@ -5,19 +5,19 @@ Ce projet implémente une simulation simple d'un "aspirateur" dans une pièce. L
 ## Installation
   
 ```bash
-# Clone this project
+# Cloner le projet.
 $ git clone https://github.com/MohammedAymane/iHoover-Company.git
 
-# Access
+# Acceder au dossier.
 $ cd iHoover-Company
 
-# Install dependencies
+# Installer les dépendences.
 $ npm install
 
-# Run the application.
+# Lancer l'application.
 $ npm start
 
-# Run test (le test est configuré pour verifier celui spécifié dans le google docs fourni)
+# Run test (le test est configuré pour verifier celui spécifié dans le google docs fourni).
 npm test
 
 # Il existe une autre version du fichier main qui permet de saisir manuellement les différentes variables (longueur, largeur, etc.). Pour l'exécuter, utilisez la commande suivante :
